@@ -53,6 +53,10 @@ Execute the cells sequentially to preprocess data, train models, and detect conc
 ---
 **Datasets & Literature**:
 
-  > WEISZMANN, J. et al. (2023) Metabolome plasticity in 241 Arabidopsis thaliana accessions reveals evolutionary cold adaptation processes.
+> WEISZMANN, J. et al. Metabolome plasticity in 241 Arabidopsis thaliana accessions reveals evolutionary cold adaptation processes, 2023.
+
+> Schwarzerova, Jana, et al. "An innovative perspective on metabolomics data analysis in biomedical research using concept drift detection." 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2021.
+ 
+>Schwarzerova, Jana, et al. "A revealed imperfection in concept drift correction in metabolomics modeling." International Conference on Information Technologies in Biomedicine. Cham: Springer International Publishing, 2022.
 
 
