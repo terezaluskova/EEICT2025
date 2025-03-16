@@ -50,6 +50,7 @@ Execute the cells sequentially to preprocess data, train models, and detect conc
 ## Evaluation
 - Assess model accuracy, precision, and recall.
 - Identify key confounding factors affecting metabolomics predictions.
+---
 **Datasets & Literature**:
 
   > WEISZMANN, J. et al. (2023) Metabolome plasticity in 241 Arabidopsis thaliana accessions reveals evolutionary cold adaptation processes.
