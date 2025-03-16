@@ -50,7 +50,8 @@ Execute the cells sequentially to preprocess data, train models, and detect conc
 ## Evaluation
 - Assess model accuracy, precision, and recall.
 - Identify key confounding factors affecting metabolomics predictions.
+**Datasets & Literature**:
 
----
-This repository is designed for easy execution on **Google Colab**, allowing seamless experimentation without local setup issues. Make sure to upload necessary datasets before running the pipeline.
+  > WEISZMANN, J. et al. (2023) Metabolome plasticity in 241 Arabidopsis thaliana accessions reveals evolutionary cold adaptation processes.
+
 
