@@ -18,37 +18,38 @@ This project aims to detect concept drift in metabolite concentrations across di
 ## Installation
 To set up the environment, install the required dependencies:
 ```bash
-pip install -r requirements.txt
+!pip install -r requirements.txt
 ```
 
 ## How to Use
-### Running on Google Colab
+### Running in Jupyter Notebook
 1. **Clone the Repository:**
 ```bash
 !git clone <repository_url>
 ```
 Replace `<repository_url>` with the actual GitHub link.
 
-2. **Upload Data to Google Drive** and mount it in Colab:
+2. **Upload Data to Jupyter Environment:**
+   In a Jupyter notebook, you would usually upload files directly through the notebook interface. Here's an example of how you can load a file from your local system:
 ```python
-from google.colab import drive
-drive.mount('/content/drive')
+import pandas as pd
+data_6_degree = pd.read_excel("path_to_your_dataset.xlsx, header=None")
 ```
+For cloud-based solutions like JupyterHub or Binder, you may need to upload the files manually via the Jupyter file manager or use APIs for cloud storage.
 
 3. **Run the Notebook**
 Execute the cells sequentially to preprocess data, train models, and detect concept drift.
 
 ## Data Processing
 - Load and preprocess metabolomics data.
-- Normalize and scale data using various scaling techniques.
-- Train multiple regression models (Ridge, SVR, RF, DNN).
+- Train multiple regression models (SVR, RF, LR).
 
 ## Concept Drift Detection
 - Implement **DDM (Drift Detection Method)** and **EDDM (Enhanced Drift Detection Method)**.
 - Analyze drift effects on prediction stability.
 
 ## Evaluation
-- Assess model accuracy, precision, and recall.
+- Assess model Accuracy, R², MAE, MSE, RMSE, SMAPE
 - Identify key confounding factors affecting metabolomics predictions.
 ---
 **Datasets & Literature**:
